@@ -1,1 +1,23 @@
 // Write a program to find the factorial of a number.
+
+.MODEL SMALL
+.STACK 20
+.DATA
+ORG 1000H
+NUM DB 4
+RES DW ?
+COUNT DW 4
+.CODE
+START:
+MOV AX, CDATA
+MOV DS, AX
+MOV CX,4
+MOV S1, 1H
+MOV AL, 1H
+REPEAT:
+MUL SI
+INC SI
+LOOP REPEAT
+MOV RES, AX
+INT 3
+END START
