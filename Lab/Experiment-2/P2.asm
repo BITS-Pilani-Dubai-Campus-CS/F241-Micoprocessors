@@ -1,3 +1,5 @@
+// Write a program to subtract two multi-byte binary numbers stored in memory and also store the result in memory.
+
 .MODEL SMALL
 .STACK 20
 .DATA
