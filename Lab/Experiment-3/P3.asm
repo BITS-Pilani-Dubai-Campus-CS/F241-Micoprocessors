@@ -1,4 +1,4 @@
-//Write a program to exchange two data blocks of length 10-bytes stored in memory starting from 1200H and 1220H respectively.
+// Write a program to exchange two data blocks of length 10-bytes stored in memory starting from 1200H and 1220H respectively.
 
 .MODEL SMALL
 .STACK 20
