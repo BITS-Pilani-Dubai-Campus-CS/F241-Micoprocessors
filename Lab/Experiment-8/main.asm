@@ -1,3 +1,4 @@
+// stepper motor interfacing
 DATA SEGMENT
 PORTA EQU 00H
 PORTB EQU 02H
