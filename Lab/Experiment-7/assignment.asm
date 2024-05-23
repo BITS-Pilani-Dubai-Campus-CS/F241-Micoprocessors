@@ -1,3 +1,4 @@
+// 7-segment led interfacing
 DATA SEGMENT
 PORTA EQU 00H
 PORTB EQU 02H
